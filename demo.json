@@ -1,0 +1,24 @@
+{
+  "project": "Password Cracking and Hashing Algorithms",
+  "generated_at_utc": "2026-10-12T16:53:41.991620+00:00",
+  "scope": "synthetic local demonstration only",
+  "algorithm_demo": "SHA-256(salt || password)",
+  "salt_hex": "7c7e891cc75d27c139fe3b94dd3734e6",
+  "stored_hash_sha256": "7c954ea77a1af764a60a7758bc5cee7fa3c123bc3d39f24d13a9aee1810d7ca4",
+  "salt_length_bytes": 16,
+  "dictionary_result": {
+    "found": true,
+    "attempts": 4,
+    "method": "dictionary"
+  },
+  "bounded_bruteforce_result": {
+    "found": true,
+    "attempts": 9,
+    "method": "bounded_bruteforce"
+  },
+  "production_note": "Use Argon2id, scrypt, or bcrypt through a maintained library for real password storage. This SHA-256 example is educational only.",
+  "external_tools": {
+    "hashcat": "not integrated",
+    "john_the_ripper": "not integrated"
+  }
+}
